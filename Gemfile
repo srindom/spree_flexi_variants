@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'jquery-validation-rails'
+
 group :development, :test do
   spree_version = '3-2-stable'
   gem 'spree', github: 'spree/spree', branch: spree_version
